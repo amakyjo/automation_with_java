@@ -1,0 +1,176 @@
+03/10/2015 00:01:53 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+03/10/2015 00:01:53 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+03/10/2015 00:01:53 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+03/10/2015 00:01:53 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+03/10/2015 00:01:53 DEBUG MainClientExec:234 - Opening connection {}->http://127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to /127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 127.0.0.1:65190<->127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG MainClientExec:255 - Executing request POST /hub/session HTTP/1.1
+03/10/2015 00:01:53 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+03/10/2015 00:01:53 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+03/10/2015 00:01:53 DEBUG headers:124 - http-outgoing-0 >> POST /hub/session HTTP/1.1
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-0 >> Content-Length: 105
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-0 >> Host: 127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-0 >> Connection: Keep-Alive
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_11)
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 >> "POST /hub/session HTTP/1.1[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 >> "Host: 127.0.0.1:7055[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_11)[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:86 - http-outgoing-0 >> "{"desiredCapabilities":{"platform":"ANY","browserName":"firefox","version":""},"requiredCapabilities":{}}"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 << "connection: close[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 << "content-length: 423[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 << "server: httpd.js[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 << "date: Fri, 02 Oct 2015 23:01:53 GMT[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+03/10/2015 00:01:53 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 200 OK
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-0 << content-type: application/json; charset=UTF-8
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-0 << connection: close
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-0 << content-length: 423
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-0 << server: httpd.js
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-0 << date: Fri, 02 Oct 2015 23:01:53 GMT
+03/10/2015 00:01:53 DEBUG wire:86 - http-outgoing-0 << "{"name":"newSession","sessionId":"5bd10ba2-3630-4774-980c-d08029d25167","status":0,"value":{"cssSelectorsEnabled":true,"browserName":"firefox","handlesAlerts":true,"javascriptEnabled":true,"nativeEvents":false,"platform":"WINDOWS","rotatable":false,"takesScreenshot":true,"version":"40.0.3","webStorageEnabled":true,"applicationCacheEnabled":true,"databaseEnabled":true,"locationContextEnabled":true,"acceptSslCerts":true}}"
+03/10/2015 00:01:53 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-0: Shutdown connection
+03/10/2015 00:01:53 DEBUG MainClientExec:128 - Connection discarded
+03/10/2015 00:01:53 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+03/10/2015 00:01:53 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+03/10/2015 00:01:53  INFO TestLogger:67 - The openAndMaximiseBrowser method is started correctly
+03/10/2015 00:01:53 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+03/10/2015 00:01:53 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+03/10/2015 00:01:53 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+03/10/2015 00:01:53 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+03/10/2015 00:01:53 DEBUG MainClientExec:234 - Opening connection {}->http://127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to /127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 127.0.0.1:65193<->127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG MainClientExec:255 - Executing request POST /hub/session/5bd10ba2-3630-4774-980c-d08029d25167/window/current/maximize HTTP/1.1
+03/10/2015 00:01:53 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+03/10/2015 00:01:53 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+03/10/2015 00:01:53 DEBUG headers:124 - http-outgoing-1 >> POST /hub/session/5bd10ba2-3630-4774-980c-d08029d25167/window/current/maximize HTTP/1.1
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-1 >> Content-Length: 26
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-1 >> Host: 127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-1 >> Connection: Keep-Alive
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_11)
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 >> "POST /hub/session/5bd10ba2-3630-4774-980c-d08029d25167/window/current/maximize HTTP/1.1[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 >> "Content-Length: 26[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 >> "Host: 127.0.0.1:7055[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_11)[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:86 - http-outgoing-1 >> "{"windowHandle":"current"}"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 << "content-type: application/json; charset=UTF-8[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 << "connection: close[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 << "content-length: 98[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 << "server: httpd.js[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 << "date: Fri, 02 Oct 2015 23:01:53 GMT[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+03/10/2015 00:01:53 DEBUG headers:113 - http-outgoing-1 << HTTP/1.1 200 OK
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-1 << content-type: application/json; charset=UTF-8
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-1 << connection: close
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-1 << content-length: 98
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-1 << server: httpd.js
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-1 << date: Fri, 02 Oct 2015 23:01:53 GMT
+03/10/2015 00:01:53 DEBUG wire:86 - http-outgoing-1 << "{"name":"maximizeWindow","sessionId":"5bd10ba2-3630-4774-980c-d08029d25167","status":0,"value":""}"
+03/10/2015 00:01:53 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-1: Shutdown connection
+03/10/2015 00:01:53 DEBUG MainClientExec:128 - Connection discarded
+03/10/2015 00:01:53 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-1: Close connection
+03/10/2015 00:01:53 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+03/10/2015 00:01:53  INFO TestLogger:69 - Browser has been maximized
+03/10/2015 00:01:53 ERROR TestLogger:76 - The openAndMaximizeBrowser Method has encountered errorjava.lang.StringIndexOutOfBoundsException: String index out of range: 22
+03/10/2015 00:01:53 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+03/10/2015 00:01:53 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+03/10/2015 00:01:53 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+03/10/2015 00:01:53 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 2][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+03/10/2015 00:01:53 DEBUG MainClientExec:234 - Opening connection {}->http://127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to /127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 127.0.0.1:65194<->127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG MainClientExec:255 - Executing request GET /hub/session/5bd10ba2-3630-4774-980c-d08029d25167/screenshot HTTP/1.1
+03/10/2015 00:01:53 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+03/10/2015 00:01:53 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+03/10/2015 00:01:53 DEBUG headers:124 - http-outgoing-2 >> GET /hub/session/5bd10ba2-3630-4774-980c-d08029d25167/screenshot HTTP/1.1
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-2 >> Cache-Control: no-cache
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-2 >> Host: 127.0.0.1:7055
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-2 >> Connection: Keep-Alive
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_11)
+03/10/2015 00:01:53 DEBUG headers:127 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 >> "GET /hub/session/5bd10ba2-3630-4774-980c-d08029d25167/screenshot HTTP/1.1[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 >> "Cache-Control: no-cache[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 >> "Host: 127.0.0.1:7055[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_11)[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 >> "[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 << "content-type: application/json; charset=UTF-8[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 << "connection: close[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 << "content-length: 6778[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 << "server: httpd.js[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 << "date: Fri, 02 Oct 2015 23:01:53 GMT[\r][\n]"
+03/10/2015 00:01:53 DEBUG wire:72 - http-outgoing-2 << "[\r][\n]"
+03/10/2015 00:01:53 DEBUG headers:113 - http-outgoing-2 << HTTP/1.1 200 OK
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-2 << content-type: application/json; charset=UTF-8
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-2 << connection: close
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-2 << content-length: 6778
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-2 << server: httpd.js
+03/10/2015 00:01:53 DEBUG headers:116 - http-outgoing-2 << date: Fri, 02 Oct 2015 23:01:53 GMT
+03/10/2015 00:01:53 DEBUG wire:86 - http-outgoing-2 << "{"name":"screenshot","sessionId":"5bd10ba2-3630-4774-980c-d08029d25167","status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABVYAAAKRCAYAAAC/c/KQAAATW0lEQVR4nO3YMQ0AMAzAsPInvWLINVWyEeTOPAAAAAAAkvkdAAAAAABwjbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEK"
+03/10/2015 00:01:53 DEBUG wire:86 - http-outgoing-2 << "AAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAA"
+03/10/2015 00:01:53 DEBUG wire:86 - http-outgoing-2 << "kbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAZqwAAAAAAkbEKAAAAABAt1eVDxmD+iIsAAAAASUVORK5CYII="}"
+03/10/2015 00:01:53 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-2: Shutdown connection
+03/10/2015 00:01:53 DEBUG MainClientExec:128 - Connection discarded
+03/10/2015 00:01:53 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-2: Close connection
+03/10/2015 00:01:53 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 2][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+03/10/2015 00:01:54  INFO TestLogger:83 - The tearDownBrowser method has been initiated
+03/10/2015 00:01:54 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+03/10/2015 00:01:54 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+03/10/2015 00:01:54 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+03/10/2015 00:01:54 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 3][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+03/10/2015 00:01:54 DEBUG MainClientExec:234 - Opening connection {}->http://127.0.0.1:7055
+03/10/2015 00:01:54 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to /127.0.0.1:7055
+03/10/2015 00:01:54 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 127.0.0.1:65195<->127.0.0.1:7055
+03/10/2015 00:01:54 DEBUG MainClientExec:255 - Executing request DELETE /hub/session/5bd10ba2-3630-4774-980c-d08029d25167 HTTP/1.1
+03/10/2015 00:01:54 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+03/10/2015 00:01:54 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+03/10/2015 00:01:54 DEBUG headers:124 - http-outgoing-3 >> DELETE /hub/session/5bd10ba2-3630-4774-980c-d08029d25167 HTTP/1.1
+03/10/2015 00:01:54 DEBUG headers:127 - http-outgoing-3 >> Host: 127.0.0.1:7055
+03/10/2015 00:01:54 DEBUG headers:127 - http-outgoing-3 >> Connection: Keep-Alive
+03/10/2015 00:01:54 DEBUG headers:127 - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_11)
+03/10/2015 00:01:54 DEBUG headers:127 - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 >> "DELETE /hub/session/5bd10ba2-3630-4774-980c-d08029d25167 HTTP/1.1[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 >> "Host: 127.0.0.1:7055[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.4.1 (Java/1.7.0_11)[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 >> "[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 << "content-type: application/json; charset=UTF-8[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 << "connection: close[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 << "content-length: 88[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 << "server: httpd.js[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 << "date: Fri, 02 Oct 2015 23:01:54 GMT[\r][\n]"
+03/10/2015 00:01:54 DEBUG wire:72 - http-outgoing-3 << "[\r][\n]"
+03/10/2015 00:01:54 DEBUG headers:113 - http-outgoing-3 << HTTP/1.1 200 OK
+03/10/2015 00:01:54 DEBUG headers:116 - http-outgoing-3 << content-type: application/json; charset=UTF-8
+03/10/2015 00:01:54 DEBUG headers:116 - http-outgoing-3 << connection: close
+03/10/2015 00:01:54 DEBUG headers:116 - http-outgoing-3 << content-length: 88
+03/10/2015 00:01:54 DEBUG headers:116 - http-outgoing-3 << server: httpd.js
+03/10/2015 00:01:54 DEBUG headers:116 - http-outgoing-3 << date: Fri, 02 Oct 2015 23:01:54 GMT
+03/10/2015 00:01:54 DEBUG wire:86 - http-outgoing-3 << "{"name":"quit","sessionId":"5bd10ba2-3630-4774-980c-d08029d25167","status":0,"value":""}"
+03/10/2015 00:01:54 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-3: Shutdown connection
+03/10/2015 00:01:54 DEBUG MainClientExec:128 - Connection discarded
+03/10/2015 00:01:54 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-3: Close connection
+03/10/2015 00:01:54 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 3][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+03/10/2015 00:01:54  INFO TestLogger:85 - Browser has now quit
+03/10/2015 00:01:54  INFO TestLogger:87 - Browser has no value anymore

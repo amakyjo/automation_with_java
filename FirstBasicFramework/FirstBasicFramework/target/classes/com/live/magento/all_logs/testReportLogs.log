@@ -1,0 +1,6 @@
+03/10/2015 00:01:53 [TestLogger][  INFO]:- The openAndMaximiseBrowser method is started correctly
+03/10/2015 00:01:53 [TestLogger][  INFO]:- Browser has been maximized
+03/10/2015 00:01:53 [TestLogger][ ERROR]:- The openAndMaximizeBrowser Method has encountered errorjava.lang.StringIndexOutOfBoundsException: String index out of range: 22
+03/10/2015 00:01:54 [TestLogger][  INFO]:- The tearDownBrowser method has been initiated
+03/10/2015 00:01:54 [TestLogger][  INFO]:- Browser has now quit
+03/10/2015 00:01:54 [TestLogger][  INFO]:- Browser has no value anymore
