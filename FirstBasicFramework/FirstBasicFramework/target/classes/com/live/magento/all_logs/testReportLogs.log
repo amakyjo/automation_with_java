@@ -1,6 +1,51 @@
-03/10/2015 00:01:53 [TestLogger][  INFO]:- The openAndMaximiseBrowser method is started correctly
-03/10/2015 00:01:53 [TestLogger][  INFO]:- Browser has been maximized
-03/10/2015 00:01:53 [TestLogger][ ERROR]:- The openAndMaximizeBrowser Method has encountered errorjava.lang.StringIndexOutOfBoundsException: String index out of range: 22
-03/10/2015 00:01:54 [TestLogger][  INFO]:- The tearDownBrowser method has been initiated
-03/10/2015 00:01:54 [TestLogger][  INFO]:- Browser has now quit
-03/10/2015 00:01:54 [TestLogger][  INFO]:- Browser has no value anymore
+05/10/2015 01:08:15 [TestLogger][  INFO]:- The openAndMaximiseBrowser method is started correctly
+05/10/2015 01:08:15 [TestLogger][  INFO]:- Browser has been maximized
+05/10/2015 01:08:15 [TestLogger][  INFO]:- The Url has been formatted correctly
+05/10/2015 01:08:18 [TestLogger][  INFO]:- The Web address has been loaded successfully
+05/10/2015 01:08:18 [TestLogger][  INFO]:- The openMyAccount method has started successfully
+05/10/2015 01:08:19 [TestLogger][  INFO]:- Account has been opened successfully
+05/10/2015 01:08:19 [TestLogger][  INFO]:- The loginWith method has started successfully
+05/10/2015 01:08:19 [TestLogger][  INFO]:- username has been entered successfully
+05/10/2015 01:08:19 [TestLogger][  INFO]:- password has been entered successfully
+05/10/2015 01:08:20 [TestLogger][  INFO]:- my account has been clicked
+05/10/2015 01:08:20 [TestLogger][  INFO]:- The verifyLogin method has started successfully
+05/10/2015 01:08:20 [TestLogger][  INFO]:- name has been verified
+05/10/2015 01:08:20 [TestLogger][  INFO]:- The tearDownBrowser method has been initiated
+05/10/2015 01:08:21 [TestLogger][  INFO]:- Browser has now quit
+05/10/2015 01:08:21 [TestLogger][  INFO]:- Browser has no value anymore
+05/10/2015 01:08:25 [TestLogger][  INFO]:- The openAndMaximiseBrowser method is started correctly
+05/10/2015 01:08:25 [TestLogger][  INFO]:- Browser has been maximized
+05/10/2015 01:08:25 [TestLogger][  INFO]:- The Url has been formatted correctly
+05/10/2015 01:08:28 [TestLogger][  INFO]:- The Web address has been loaded successfully
+05/10/2015 01:08:28 [TestLogger][  INFO]:- The searchForProduct method has been initiated
+05/10/2015 01:08:29 [TestLogger][  INFO]:- The product name to be searched has been entered successfully
+05/10/2015 01:08:29 [TestLogger][  INFO]:- The search button has been clicked
+05/10/2015 01:08:29 [TestLogger][  INFO]:- The verifyProduct method has been initiated
+05/10/2015 01:08:29 [TestLogger][  INFO]:- The product has been found on the page
+05/10/2015 01:08:29 [TestLogger][  INFO]:- The tearDownBrowser method has been initiated
+05/10/2015 01:08:30 [TestLogger][  INFO]:- Browser has now quit
+05/10/2015 01:08:30 [TestLogger][  INFO]:- Browser has no value anymore
+05/10/2015 01:08:34 [TestLogger][  INFO]:- The openAndMaximiseBrowser method is started correctly
+05/10/2015 01:08:34 [TestLogger][  INFO]:- Browser has been maximized
+05/10/2015 01:08:34 [TestLogger][  INFO]:- The Url has been formatted correctly
+05/10/2015 01:08:37 [TestLogger][  INFO]:- The Web address has been loaded successfully
+05/10/2015 01:08:37 [TestLogger][  INFO]:- The searchForProduct method has been initiated
+05/10/2015 01:08:37 [TestLogger][  INFO]:- The product name to be searched has been entered successfully
+05/10/2015 01:08:38 [TestLogger][  INFO]:- The search button has been clicked
+05/10/2015 01:08:38 [TestLogger][  INFO]:- The verifyProduct method has been initiated
+05/10/2015 01:08:38 [TestLogger][  INFO]:- The product has been found on the page
+05/10/2015 01:08:38 [TestLogger][  INFO]:- The tearDownBrowser method has been initiated
+05/10/2015 01:08:39 [TestLogger][  INFO]:- Browser has now quit
+05/10/2015 01:08:39 [TestLogger][  INFO]:- Browser has no value anymore
+05/10/2015 01:08:43 [TestLogger][  INFO]:- The openAndMaximiseBrowser method is started correctly
+05/10/2015 01:08:43 [TestLogger][  INFO]:- Browser has been maximized
+05/10/2015 01:08:43 [TestLogger][  INFO]:- The Url has been formatted correctly
+05/10/2015 01:08:46 [TestLogger][  INFO]:- The Web address has been loaded successfully
+05/10/2015 01:08:46 [TestLogger][  INFO]:- The searchForProduct method has been initiated
+05/10/2015 01:08:46 [TestLogger][  INFO]:- The product name to be searched has been entered successfully
+05/10/2015 01:08:47 [TestLogger][  INFO]:- The search button has been clicked
+05/10/2015 01:08:47 [TestLogger][  INFO]:- The verifyProduct method has been initiated
+05/10/2015 01:08:47 [TestLogger][  INFO]:- The product has been found on the page
+05/10/2015 01:08:47 [TestLogger][  INFO]:- The tearDownBrowser method has been initiated
+05/10/2015 01:08:47 [TestLogger][  INFO]:- Browser has now quit
+05/10/2015 01:08:47 [TestLogger][  INFO]:- Browser has no value anymore

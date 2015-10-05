@@ -8,6 +8,7 @@ import java.util.Properties;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -27,7 +28,7 @@ public class AbstractPage {
 		this.driver = driver;
 		camera = new Screenshot(driver);
 		try {
-			fis = new FileInputStream("C:\\Automation\\Projects\\FirstBasicFramework\\FirstBasicFramework\\src\\main\\resources\\testData.properties");
+			fis = new FileInputStream("C:\\Automation\\Projects\\automation_with_java_repo\\FirstBasicFramework\\FirstBasicFramework\\src\\main\\resources\\testData.properties");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -67,7 +68,7 @@ public class AbstractPage {
 			logger.info("The openAndMaximiseBrowser method is started correctly");	
 			driver.manage().window().maximize();
 			logger.info("Browser has been maximized");
-			String formatedUrl = SecondUrlFormatter.formatUrl(config.getProperty("baseUrl2"));
+			String formatedUrl = UrlFormatter.formatUrl(config.getProperty("baseUrl"));
 			logger.info("The Url has been formatted correctly");
 			driver.navigate().to(formatedUrl);
 			logger.info("The Web address has been loaded successfully");
@@ -75,6 +76,21 @@ public class AbstractPage {
 			logger.error("The openAndMaximizeBrowser Method has encountered error" +t);
 			camera.takeShot("openAndMaximizeBrowser");
 		}
+	}
+	
+
+	public void searchForProduct(String productName) {
+		try{
+			logger.info("The searchForProduct method has been initiated");
+			driver.findElement(By.id("search")).sendKeys(productName);
+			logger.info("The product name to be searched has been entered successfully");
+			driver.findElement(By.cssSelector(".button.search-button")).click();
+			logger.info("The search button has been clicked");
+		}catch(Throwable t){
+			logger.error("The searchForProduct method has encountered error" +t);
+			camera.takeShot("searchForProduct");
+		}
+		
 	}
 	
 	public void tearDownBrowser(){
