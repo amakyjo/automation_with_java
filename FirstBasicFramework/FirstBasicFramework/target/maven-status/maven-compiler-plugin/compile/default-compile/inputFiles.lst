@@ -1,7 +1,10 @@
-C:\Automation\Projects\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\pages\AbstractPage.java
-C:\Automation\Projects\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\utilities\SecondUrlFormatter.java
-C:\Automation\Projects\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\utilities\UrlFormatter.java
-C:\Automation\Projects\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\pages\HomePage.java
-C:\Automation\Projects\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\pages\MyAccountPage.java
-C:\Automation\Projects\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\pages\WelcomePage.java
-C:\Automation\Projects\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\utilities\Screenshot.java
+C:\Automation\Projects\automation_with_java_repo\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\utilities\SecondUrlFormatter.java
+C:\Automation\Projects\automation_with_java_repo\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\utilities\Constant.java
+C:\Automation\Projects\automation_with_java_repo\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\utilities\ExcelReader.java
+C:\Automation\Projects\automation_with_java_repo\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\utilities\Screenshot.java
+C:\Automation\Projects\automation_with_java_repo\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\pages\AbstractPage.java
+C:\Automation\Projects\automation_with_java_repo\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\pages\HomePage.java
+C:\Automation\Projects\automation_with_java_repo\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\utilities\UrlFormatter.java
+C:\Automation\Projects\automation_with_java_repo\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\pages\MyAccountPage.java
+C:\Automation\Projects\automation_with_java_repo\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\pages\SearchResultPage.java
+C:\Automation\Projects\automation_with_java_repo\FirstBasicFramework\FirstBasicFramework\src\main\java\com\live\magento\pages\WelcomePage.java

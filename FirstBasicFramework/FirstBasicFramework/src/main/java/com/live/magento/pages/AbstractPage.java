@@ -23,6 +23,9 @@ public class AbstractPage {
 	protected static InputStream fis;
 	protected static Screenshot camera;
 	protected static Logger logger = LogManager.getLogger("TestLogger");
+	
+	private static String searchID = "search";
+	private static String searchButton = ".button.search-button";
 
 	public AbstractPage(WebDriver driver){
 		this.driver = driver;
@@ -82,9 +85,9 @@ public class AbstractPage {
 	public void searchForProduct(String productName) {
 		try{
 			logger.info("The searchForProduct method has been initiated");
-			driver.findElement(By.id("search")).sendKeys(productName);
+			driver.findElement(By.id(searchID)).sendKeys(productName);
 			logger.info("The product name to be searched has been entered successfully");
-			driver.findElement(By.cssSelector(".button.search-button")).click();
+			driver.findElement(By.cssSelector(searchButton)).click();
 			logger.info("The search button has been clicked");
 		}catch(Throwable t){
 			logger.error("The searchForProduct method has encountered error" +t);

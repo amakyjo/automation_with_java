@@ -10,12 +10,12 @@ public class MyAccountPage extends AbstractPage {
 		
 	}
 
-	public void loginWith(){
+	public void loginWith(String username, String password){
 		try{
 			logger.info("The loginWith method has started successfully");
-			driver.findElement(By.id("email")).sendKeys(config.getProperty("username"));
+			driver.findElement(By.id("email")).sendKeys(username);
 			logger.info("username has been entered successfully");
-			driver.findElement(By.id("pass")).sendKeys(config.getProperty("password"));
+			driver.findElement(By.id("pass")).sendKeys(password);
 			logger.info("password has been entered successfully");
 			driver.findElement(By.id("send2")).click();
 			logger.info("my account has been clicked");
